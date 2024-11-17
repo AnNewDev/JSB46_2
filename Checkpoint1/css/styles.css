@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  #diem-so {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .luoi {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .the {
+    width: 100px;
+    height: 100px;
+    background-color: #cccccc;
+    border: 2px solid #555;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .the img {
+    display: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+  }
+  
+  .the.lat img {
+    display: block;
+  }
+  
+  .the.lat {
+    background-color: #ffffff;
+    cursor: default;
+  }
+  
