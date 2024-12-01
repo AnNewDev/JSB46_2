@@ -37,7 +37,7 @@ function search_pokemon(pokemon_name) {
       updateUI(name, img, bio);
     })
     .catch(function (error) {
-      aleart("Khong tim thay pokemon");
+      alert("Khong tim thay pokemon");
     });
 }
 
