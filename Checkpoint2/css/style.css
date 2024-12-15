@@ -1,0 +1,23 @@
+body {
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+}
+.weather-card {
+    margin: 50px auto;
+    max-width: 400px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background: #fff;
+}
+.weather-icon {
+    width: 100px;
+    margin: 0 auto;
+}
+.weather-info {
+    text-align: center;
+}
+.location-btn {
+    margin: 10px 0;
+}
